@@ -1,0 +1,50 @@
+#root{
+    background-color:#DED6D66E;
+}
+
+
+.form {
+
+    width:500px;
+    border:1px,solid gray;
+    // margin:50px;
+    margin-top:-10px;
+    margin-left: 19rem;
+    padding: 2rem; 
+    box-shadow:2px 2px 2px 2px;
+    background-color: #FFFFFF;
+    color: #989898;
+    border-radius:10px;
+    &_header {
+        display: flex;
+
+        h1{
+            color:#2F3031;
+        }     
+        p{
+         margin-top: 22px;
+          color:#396CC5;
+          font-size: 30px;
+        }
+    }
+    &_container { 
+        gap: 1rem;  
+        display: flex;
+        flex-direction: column;
+        .rowThree{
+            flex-flow: wrap;
+            display: grid;
+            gap: 1rem;
+            grid-template-columns: repeat(auto-fill, minmax(30%, 1fr));         
+        }
+    }
+    &_footer {
+        padding-top: 1rem;
+    }
+}
+
+
+// custom styles for inputs
+label{
+    text-transform: capitalize;
+}

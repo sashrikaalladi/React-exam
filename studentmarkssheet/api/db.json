@@ -1,0 +1,103 @@
+{
+  "data": [
+    {
+      "Activities": 56,
+      "Social": 45,
+      "Hindhi": 67,
+      "Science": 56,
+      "Telugu": 23,
+      "English": 79,
+      "Name": "sashrika",
+      "Rollnumber": "803",
+      "Totalmarks": "67",
+      "id": 0.8406883699459378
+    },
+    {
+      "Activities": 67,
+      "Social": 89,
+      "Hindhi": 67,
+      "Science": 56,
+      "Telugu": 25,
+      "English": 35,
+      "Name": "krithika",
+      "Rollnumber": "103",
+      "Totalmarks": "567",
+      "id": 0.14864396428853177
+    },
+    {
+      "Activities": 36,
+      "Social": 36,
+      "Hindhi": 90,
+      "Science": 74,
+      "Telugu": 48,
+      "English": 46,
+      "Name": "Harish",
+      "Rollnumber": "567",
+      "Totalmarks": "467",
+      "id": 0.6527549465352895
+    },
+    {
+      "Activities": 89,
+      "Social": 78,
+      "Hindhi": 47,
+      "Science": 90,
+      "Telugu": 67,
+      "English": 37,
+      "Name": "Manasa",
+      "Rollnumber": "367",
+      "Totalmarks": "678",
+      "id": 0.6169108045601808
+    },
+    {
+      "Activities": 90,
+      "Social": 56,
+      "Hindhi": 34,
+      "Science": 46,
+      "Telugu": 35,
+      "English": 78,
+      "Name": "RaniM",
+      "Rollnumber": "678",
+      "Totalmarks": "689",
+      "id": 0.45524233997941077
+    },
+    {
+      "Activities": 45,
+      "Social": 23,
+      "Hindhi": 43,
+      "Science": 56,
+      "Telugu": 67,
+      "English": 89,
+      "Name": "Pragathi",
+      "Rollnumber": "356",
+      "Totalmarks": "78",
+      "id": 0.8756044708559578
+    },
+    {
+      "Activities": 67,
+      "Social": 27,
+      "Hindhi": 89,
+      "Science": 56,
+      "Telugu": 35,
+      "English": 78,
+      "Name": "Fayaz",
+      "Rollnumber": "456",
+      "Totalmarks": "89",
+      "id": 0.7095205288782911
+    },
+    {
+      "Activities": 46,
+      "Social": 28,
+      "Hindhi": 76,
+      "Science": 45,
+      "Telugu": 36,
+      "English": 23,
+      "Name": "Satish",
+      "Rollnumber": "457",
+      "Totalmarks": "890",
+      "id": 0.2775503154343022
+    },
+    {
+      "id": 0.17636395035953067
+    }
+  ]
+}
