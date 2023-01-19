@@ -2,6 +2,7 @@
   display: flex;
   justify-content: space-between;
   padding: 1rem 3rem;
+  /* float: right; */
 }
 .navigation a button{
   background-color: rgb(255, 255, 255);

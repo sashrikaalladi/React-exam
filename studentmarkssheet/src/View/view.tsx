@@ -9,6 +9,7 @@ import { AiOutlineLeft } from "react-icons/ai";
 import { AiOutlineRight } from "react-icons/ai";
 import './view.scss';
 
+
 const View = () => {
   const[data,setData]=useState();
   const getData=async()=>{
@@ -117,8 +118,8 @@ const columns: IColumn[]=[
             key: 'column10',
             name: '',
             fieldName: 'id',
-            minWidth: 100,
-            maxWidth: 200,
+            minWidth: 60,
+            maxWidth: 80,
             isResizable: true,
         
             onRender:(item:any)=>(
@@ -136,9 +137,10 @@ const columns: IColumn[]=[
 
 ]
     return (
-       
-       
+       <>
         <div className='one'>
+        <Link className='btn' to="/create"><button>Add</button></Link>
+            <div className='one_table'>
         {data &&
             <DetailsList
                 items={data}
@@ -146,7 +148,9 @@ const columns: IColumn[]=[
                 setKey="set"
                 layoutMode={DetailsListLayoutMode.justified}
             />}
+            </div>
     </div>
+    </>
   )
   
 }

@@ -107,7 +107,7 @@ const StudentForm = () => {
     return (
         <div className="form">
             <div className="form_header">
-                <h1>Student</h1>
+                <h1>Student</h1>&nbsp;
                 <p>Details</p>
                 
            </div>

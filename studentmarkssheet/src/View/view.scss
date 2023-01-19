@@ -1,18 +1,31 @@
 
-    .one {
+    .one{
+        a button{
+            background-color: rgb(255, 255, 255);
+            border: 1px solid rgb(0, 60, 255);
+            border-radius: 10px;
+            padding: 0.5rem 2rem;
+            color:rgb(0, 60, 255) ;
+            float:right;
+            margin-top:5px;
+          }
+
+        &_table {
         margin-left: 50px;
-        margin-top: 20px;
+        margin-top: 40px;
         top: 300px;
         // left: 119px;
         width: 1150px;
         // height: 866px;
         background: #FFFFFF 0% 0% no-repeat padding-box;
         box-shadow: 3px 3px 3px 6px #00000029;
-        border-radius:30px;
+        border-radius:10px;
         opacity: 1;
         justify-content: space-between;
         box-sizing: border-box;
+        height: 500px;
     }
+}
 .btn {
     text-decoration: none;
     // justify-content: space-between;
