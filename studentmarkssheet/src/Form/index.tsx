@@ -26,7 +26,7 @@ const StudentForm = () => {
         totalmarks?: number;
     }
     const StudentSchema: yup.SchemaOf<IStudentForm> = yup.object().shape({
-        Name: yup.string().min(5).max(10),
+        Name: yup.string().required().min(5).max(10),
         rollnumber: yup.number(),
         English: yup.number().max(100),
         Telugu: yup.number().max(100),
